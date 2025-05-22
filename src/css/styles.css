@@ -16,3 +16,74 @@
 @import url('./badges.css');
 @import url('./back-link.css');
 @import url('./footer.css');
+
+.main-nav,
+main {
+  margin: 40px;
+}
+
+.main-nav li:hover {
+  color: black;
+}
+
+#datetime-picker {
+  height: 24px;
+  width: 212px;
+  padding-left: 4px;
+}
+
+.timer-button {
+  width: 68px;
+  height: 28px;
+}
+
+.timer {
+  display: flex;
+  gap: 20px;
+  margin-top: 8px;
+}
+
+.field {
+  display: flex;
+  flex-direction: column;
+}
+
+.value {
+  font-size: 40px;
+}
+
+.label {
+  text-transform: uppercase;
+}
+
+.form {
+  width: 300px;
+}
+
+.delay-ms-form {
+  display: flex;
+  flex-direction: column;
+}
+
+.delay-ms-input {
+  height: 28px;
+}
+
+.iziToast.custom-toast {
+  background-color: #e74c3c !important;
+}
+
+.iziToast.custom-toast,
+.iziToast.custom-toast .iziToast-message,
+.iziToast.custom-toast .iziToast-title {
+  color: #ffffff !important;
+}
+
+.iziToast.success-toast {
+  background-color: #2ecc71 !important;
+}
+
+.iziToast.success-toast .iziToast-message,
+.iziToast.success-toast .iziToast-title {
+  color: #ffffff !important;
+}
